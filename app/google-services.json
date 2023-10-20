@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961588924931",
+    "project_id": "muctieu-21533",
+    "storage_bucket": "muctieu-21533.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961588924931:android:830f95db29fc0ba974b436",
+        "android_client_info": {
+          "package_name": "com.example.plantext"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6TVaLEc6CD4yizMx46BHhfn1RcE_ByMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,21 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroud_bottomsheet"
     android:orientation="vertical"
-    android:background="#FFFFFF"
     tools:context=".CreateFragment">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/profile_image"
         android:layout_width="96dp"
         android:layout_height="96dp"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/backgroud"
         android:layout_gravity="center"
-        app:civ_border_width="2dp"
-        app:civ_border_color="#FFFFFF"/>
+        android:layout_marginTop="50dp"
+        android:src="@drawable/backgroud"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="2dp" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/input_description"
@@ -33,6 +32,7 @@
         android:id="@+id/button_upload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_border"
